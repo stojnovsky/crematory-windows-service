@@ -58,7 +58,6 @@
       "ignoreFlags": true
   }
 },
-
   "crematory_service": {
       "target": "crematory_test",
       "port": 33333,
