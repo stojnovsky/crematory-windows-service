@@ -55,7 +55,7 @@
       "version": "6.8.1",
       "js-flags": "--use_strict",
       "ignoreFlags": true
-    },
+    }
 },
   "crematory_service": {
       "target": "crematory_test",
