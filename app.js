@@ -19,11 +19,12 @@ const io = require('socket.io')(http);
 
 var config = {};
 
+
 /**
  * [missing_config description]
  * @method missing_config
- * @param  {[type]}       msg [description]
- * @return {[type]}           [description]
+ * @param  {type}       msg [description]
+ * @return {type}           [description]
  */
 const exit = function(msg){
     console.log('[err]', msg);
