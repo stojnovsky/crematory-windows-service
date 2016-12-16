@@ -9,6 +9,7 @@
     "service": "./bin/service"
 
   },
+  
 
   "main": "app.js",
   "scripts": {
@@ -60,7 +61,7 @@
       "ignoreFlags": true
   }
 
-  
+
 },
   "crematory_service": {
       "target": "crematory_test",
