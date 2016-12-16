@@ -41,12 +41,22 @@
     "x86",
     "arm"
   ],
-  "runtime": {
-    "framework": "node",
-    "version": "6.8.1",
-    "js-flags": "--use_strict",
-    "ignoreFlags": true
-  },
+  "nexe": {
+    "input": "./bin/nexe",
+    "output": "nexe^$",
+    "temp": "src",
+    "browserify": {
+        "requires": [],
+        "excludes": [],
+        "paths": []
+    },
+    "runtime": {
+      "framework": "node",
+      "version": "6.8.1",
+      "js-flags": "--use_strict",
+      "ignoreFlags": true
+    },
+},
   "crematory_service": {
       "target": "crematory_test",
       "port": 33333,

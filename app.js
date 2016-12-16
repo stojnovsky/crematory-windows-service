@@ -64,8 +64,6 @@ fs.access(config.target, fs.constants.R_OK, function(err){
 
 
 function init(){
-
-
     app.get('/', function(req, res){
       res.sendFile(path.join(path.parse(process.mainModule.filename).dir, '/view/index.html'));
     });
