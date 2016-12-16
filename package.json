@@ -24,7 +24,7 @@
   },
   "license": "ISC",
   "bugs": {
-      
+
     "url": "https://github.com/stojnovsky/crematory-windows-service/issues"
   },
   "homepage": "https://github.com/stojnovsky/crematory-windows-service#readme",
@@ -34,6 +34,7 @@
     "pm2": "^2.2.2",
     "socket.io": "^1.7.2"
   },
+  
   "os": [
     "win32",
     "win64",
@@ -59,7 +60,6 @@
       "js-flags": "--use_strict",
       "ignoreFlags": true
   }
-
 },
   "crematory_service": {
       "target": "crematory_test",
