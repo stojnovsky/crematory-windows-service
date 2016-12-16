@@ -59,6 +59,8 @@
       "js-flags": "--use_strict",
       "ignoreFlags": true
   }
+
+  
 },
   "crematory_service": {
       "target": "crematory_test",
