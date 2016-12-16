@@ -79,7 +79,7 @@ function init(){
       console.log('[Info]','listening on *:33333');
 
       fs.watch(config.target, {
-        //   recursive:true
+           recursive:true
       }, function(eventType, filename){
           console.log('[ON]', eventType, filename);
           io.emit('file_change', { for: 'everyone', eventType:eventType, filename:filename });
