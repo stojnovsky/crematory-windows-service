@@ -14,7 +14,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/stojnovsky/crematory-windows-service.git"
+        "url": "ssh://git@github.com/stojnovsky/crematory-windows-service.git"
     },
     "author": "",
     "engines": {
@@ -42,7 +42,7 @@
         "arm"
     ],
     "nexe": {
-        "input": "./bin/nexe",
+        "input": "./app.js",
         "output": "nexe^$",
         "temp": "src",
         "browserify": {
