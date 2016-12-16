@@ -18,6 +18,7 @@ npm install
   }
 }
 ```
+crematory_service.target is a sub-path in os.home_folder() 
 
 
 
