@@ -2,6 +2,12 @@
   "name": "crematory-windows-service",
   "version": "1.0.0",
   "description": "",
+  "directories": {
+    "bin": "./bin"
+  },
+  "bin": {
+    "service": "./bin/service"
+  },
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,9 +17,39 @@
     "url": "git+https://github.com/stojnovsky/crematory-windows-service.git"
   },
   "author": "",
+  "engines": {
+    "node": ">=6.0"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/stojnovsky/crematory-windows-service/issues"
   },
-  "homepage": "https://github.com/stojnovsky/crematory-windows-service#readme"
+  "homepage": "https://github.com/stojnovsky/crematory-windows-service#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mkdirp": "^0.5.1",
+    "pm2": "^2.2.2",
+    "socket.io": "^1.7.2"
+  },
+  "os": [
+    "win32",
+    "win64",
+    "linux"
+  ],
+  "cpu": [
+    "x64",
+    "x86",
+    "arm"
+  ],
+  "runtime": {
+    "framework": "node",
+    "version": "6.8.1",
+    "js-flags": "--use_strict",
+    "ignoreFlags": true
+  },
+  "crematory_service": {
+      "target": "crematory_test",
+      "port": 33333,
+      "host": "127.0.0.1"
+  }
 }
