@@ -32,3 +32,6 @@ node app.js
 ```bash
 node ./bin/servie
 ```
+
+### Open in browser
+http://127.0.0.1:33333
